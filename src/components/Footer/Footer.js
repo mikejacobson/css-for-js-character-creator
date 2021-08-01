@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       All character assets taken from{' '}
-      <a
+      <a style={{ color: 'inherit' }}
         href="https://www.openpeeps.com/"
         target="_blank"
         rel="noopener noreferrer"
